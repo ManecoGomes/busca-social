@@ -1,0 +1,26 @@
+# robots.txt para busca.social.br
+# Otimizado para Google e Bing SEO
+
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# Sitemaps
+Sitemap: https://busca.social.br/sitemap.xml
+
+# Crawl-delay para bots específicos (otimização Bing)
+User-agent: bingbot
+Crawl-delay: 1
+
+User-agent: Googlebot
+Allow: /
+
+# Bloquear bots maliciosos
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
